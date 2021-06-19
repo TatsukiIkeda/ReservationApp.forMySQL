@@ -1,10 +1,3 @@
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
 # 予約状況管理システム
 店頭でお客様から商品の予約を受けたときに予約情報を記録・管理するシステムです。
 
@@ -17,7 +10,8 @@ http://reservationappikeda.herokuapp.com/order
 
 
 ## 目的・機能一覧
-従来では口頭で受けた予約を紙で記録・管理していたものをPC上で一括管理できるようにしました。
+店頭のレジなどで口頭で受けた予約を管理するシステム。
+従来は紙で記録・管理していたものをPC上で一括管理できるようにしました。
 大まかな機能として、
 - ユーザーの新規登録
 - ログイン・ログアウト機能
@@ -28,9 +22,15 @@ http://reservationappikeda.herokuapp.com/order
 - 日付ごとに予約一覧の切り替え
 - 商品受け渡し状況切り替え機能
 
-# アプリケーション内で使用している技術一覧
-- 言語/　PHP 7.3.11
-    　JavaScript
-- フレームワーク/　Laravel 8.46.0
+## アプリケーション内で使用している技術一覧
+- 言語/　PHP 7.3.11　　/ JavaScript
+- フレームワーク/　Laravel 8.46.0 / Bootstrap5
 - データベース/ MySQL 5.7.34
 - デプロイ環境/ Heroku
+- バージョン管理/ git 2.31.1
+
+## 使用方法
+- お客様から何か予約を承ったときに使います
+- 新規登録ボタンより承った予約情報を登録します
+- 商品を受け渡した後に受け渡し状況を変更できます
+- 登録したい場合は編集ボタンより編集できます
