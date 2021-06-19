@@ -37,7 +37,7 @@
     <table class="table">
         <thead>
           <tr>
-            <th scope="col">No</th>
+            {{-- <th scope="col">No</th> --}}
             <th scope="col">受渡し予定日</th>
             <th scope="col">予約者名</th>
             <th scope="col">予約内容</th>
@@ -50,7 +50,7 @@
         <tbody>
             @foreach ($items as $item)
           <tr>
-            <th scope="row">{{$item->order_id}}</th>
+            {{-- <th scope="row">{{$item->order_id}}</th> --}}
             <td>{{$item->arrival_date}}</td>
             <td>{{$item->vendor}}</td>
             <td>{{$item->title}}</td>
