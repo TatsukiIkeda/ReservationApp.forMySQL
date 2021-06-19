@@ -12,8 +12,8 @@
 http://reservationappikeda.herokuapp.com/order
 
 ## テスト用アカウント
-メールアドレス：test8104ikeda@gmail.com
-パスワード：4018tset
+- メールアドレス：test8104ikeda@gmail.com
+- パスワード：4018tset
 
 
 ## 目的・機能一覧
@@ -29,8 +29,8 @@ http://reservationappikeda.herokuapp.com/order
 - 商品受け渡し状況切り替え機能
 
 # アプリケーション内で使用している技術一覧
-言語/　PHP 7.3.11
+- 言語/　PHP 7.3.11
     　JavaScript
-フレームワーク/　Laravel 8.46.0
-データベース/ MySQL 5.7.34
-デプロイ環境/ Heroku
+- フレームワーク/　Laravel 8.46.0
+- データベース/ MySQL 5.7.34
+- デプロイ環境/ Heroku
